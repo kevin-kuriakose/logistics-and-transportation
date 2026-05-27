@@ -1,65 +1,86 @@
 [
-  {
-    "doctype": "Vehicle Type",
-    "name": "Heavy Truck (HCV)",
-    "type_name": "Heavy Truck (HCV)",
-    "category": "Heavy Commercial Vehicle",
-    "max_payload_kg": 25000,
-    "max_volume_cbm": 80,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Light Commercial Vehicle (LCV)",
-    "type_name": "Light Commercial Vehicle (LCV)",
-    "category": "Light Commercial Vehicle",
-    "max_payload_kg": 3500,
-    "max_volume_cbm": 20,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Trailer",
-    "type_name": "Trailer",
-    "category": "Heavy Commercial Vehicle",
-    "max_payload_kg": 40000,
-    "max_volume_cbm": 120,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Refrigerated Truck",
-    "type_name": "Refrigerated Truck",
-    "category": "Specialised",
-    "max_payload_kg": 15000,
-    "max_volume_cbm": 45,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Tanker",
-    "type_name": "Tanker",
-    "category": "Specialised",
-    "max_payload_kg": 30000,
-    "max_volume_cbm": 0,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Container (20ft)",
-    "type_name": "Container (20ft)",
-    "category": "Heavy Commercial Vehicle",
-    "max_payload_kg": 21000,
-    "max_volume_cbm": 33,
-    "is_active": 1
-  },
-  {
-    "doctype": "Vehicle Type",
-    "name": "Container (40ft)",
-    "type_name": "Container (40ft)",
-    "category": "Heavy Commercial Vehicle",
-    "max_payload_kg": 26000,
-    "max_volume_cbm": 67,
-    "is_active": 1
-  }
+ {
+  "category": "Heavy Commercial Vehicle",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 25000.0,
+  "max_volume_cbm": 80.0,
+  "modified": "2026-05-27 14:10:38.366343",
+  "name": "Heavy Truck (HCV)",
+  "type_name": "Heavy Truck (HCV)"
+ },
+ {
+  "category": "Light Commercial Vehicle",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 3500.0,
+  "max_volume_cbm": 20.0,
+  "modified": "2026-05-27 14:10:38.443197",
+  "name": "Light Commercial Vehicle (LCV)",
+  "type_name": "Light Commercial Vehicle (LCV)"
+ },
+ {
+  "category": "Heavy Commercial Vehicle",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 40000.0,
+  "max_volume_cbm": 120.0,
+  "modified": "2026-05-27 14:10:38.454998",
+  "name": "Trailer",
+  "type_name": "Trailer"
+ },
+ {
+  "category": "Specialised",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 15000.0,
+  "max_volume_cbm": 45.0,
+  "modified": "2026-05-27 14:10:38.468506",
+  "name": "Refrigerated Truck",
+  "type_name": "Refrigerated Truck"
+ },
+ {
+  "category": "Specialised",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 30000.0,
+  "max_volume_cbm": 0.0,
+  "modified": "2026-05-27 14:10:38.480425",
+  "name": "Tanker",
+  "type_name": "Tanker"
+ },
+ {
+  "category": "Heavy Commercial Vehicle",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 21000.0,
+  "max_volume_cbm": 33.0,
+  "modified": "2026-05-27 14:10:38.491696",
+  "name": "Container (20ft)",
+  "type_name": "Container (20ft)"
+ },
+ {
+  "category": "Heavy Commercial Vehicle",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Vehicle Type",
+  "is_active": 1,
+  "max_payload_kg": 26000.0,
+  "max_volume_cbm": 67.0,
+  "modified": "2026-05-27 14:10:38.503367",
+  "name": "Container (40ft)",
+  "type_name": "Container (40ft)"
+ }
 ]

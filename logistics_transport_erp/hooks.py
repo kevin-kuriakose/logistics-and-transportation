@@ -18,7 +18,6 @@ scheduler_events = {
     "weekly": [],
 }
 
-fixtures = [
     {"dt": "Custom Field", "filters": [["module", "=", "Logistics Transportation"]]},
     {"dt": "Property Setter", "filters": [["module", "=", "Logistics Transportation"]]},
     "Vehicle Type",
@@ -40,3 +39,7 @@ override_doctype_class = {
     "POD": "logistics_transport_erp.logistics_transportation.doctype.pod.pod.Pod",
     "Customer Complaint": "logistics_transport_erp.logistics_transportation.doctype.customer_complaint.customer_complaint.CustomerComplaint",
 }
+
+fixtures = [
+    {"doctype": "Workspace", "filters": [["name", "in", ["Logistics"]]]},
+]

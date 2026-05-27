@@ -18,15 +18,6 @@ scheduler_events = {
     "weekly": [],
 }
 
-    {"dt": "Custom Field", "filters": [["module", "=", "Logistics Transportation"]]},
-    {"dt": "Property Setter", "filters": [["module", "=", "Logistics Transportation"]]},
-    "Vehicle Type",
-    {"dt": "Notification", "filters": [["document_type", "in", [
-        "Vehicle Document", "E Way Bill", "Freight Order",
-        "Freight Invoice", "Vehicle", "Driver"
-    ]]]},
-    {"dt": "Report", "filters": [["module", "=", "Logistics Transportation"]]},
-]
 
 before_migrate = "logistics_transport_erp.install.before_migrate"
 after_install = "logistics_transport_erp.install.after_install"

@@ -6,7 +6,7 @@ app_email = "dev@yourcompany.com"
 app_license = "MIT"
 app_version = "0.0.1"
 
-required_apps = ["frappe", "erpnext"]
+required_apps = ["frappe", "bizaxl_erp"]
 
 app_include_css = "/assets/logistics_transport_erp/css/logistics_transport_erp.css"
 app_include_js = "/assets/logistics_transport_erp/js/logistics_transport_erp.js"
